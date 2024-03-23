@@ -1,0 +1,84 @@
+
+/*
+These are the styles for the entire site
+Adventures With Papi
+*/
+/*
+COLOR PALETTE
+
+Black           #000000 rgb(0,0,0)
+White           #ffffff rgb(255,255,255)
+Slategrey       #708090 rgb(112,128,144)
+Goldenrod       #daa520 rgb(218,165,32)
+Firebrick       #b22222 rgb(178,34,34)
+Darkcyan        #008b8b rgb(0,139,139)
+Teal            #008080 rgb(0,128,128)
+Paleturquoise   #afeeee rgb(175,238,238)
+Saddlebrown     #8b4513 rgb(139,69,19)
+Darkbrown       #6b2d13 rgb()
+blue            #0000ff rgb(0,0,255)
+deepskyblue     #00bfff rgb(0,191,255)
+aliceblue       #f0f8ff rgb(240,248,255)
+*/
+/*
+FLYBALL COLOR PALETTE
+
+ltblue  #8ecae6
+mdblue  #219ebc
+dkblue  #023047
+ltorange    #ffb703
+mdorange    #fb8500
+*/
+
+.site-info{
+    position: relative;;
+    background-color: #023047;
+    color: white;
+    font-family: 'Verdana',Arial, Calibri, sans-serif;
+    position: relative;
+    margin: .5rem 0 0 0;
+    padding: 0.5rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+}
+
+.site-info header h2{
+    text-decoration: overline;
+}
+.site-info header img{
+    margin: 0.2rem;
+}
+.site-info::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+footer{
+    position: relative;;
+    background-color: #023047;
+    color: white;
+    font-family: 'Verdana',Arial, Calibri, sans-serif;
+    position: relative;
+    margin: .5rem 0 0 0;
+    padding: 0.5rem;
+    width: 100%;
+    float: left;
+}
+footer a[href^='mailto']{
+    color: #ffb703;
+}
+footer ul{
+    list-style: none;
+}
+footer li{
+    float: left;
+    margin: .5rem 0 0 .5rem;
+    padding: .5rem;
+}
+footer::after{
+    content: "";
+    clear: both;
+    display: block;
+}

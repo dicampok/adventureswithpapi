@@ -1,0 +1,62 @@
+/*
+These are the styles for the page(s)
+about flyball
+/*
+
+/*
+FLYBALL COLOR PALETTE
+
+ltblue  #8ecae6
+mdblue  #219ebc
+dkblue  #023047
+ltorange    #ffb703
+mdorange    #fb8500
+*/
+
+/* font Belligerent Madness downloaded from https://www.fontsquirrel.com/ */
+@font-face {
+    font-family: Belligerent;
+    src: url(./fonts/);
+    src: url(../fonts/belligerent.ttf);
+}
+
+.page-info{
+    font-family: Belligerent;
+    padding-top: 1rem;
+    background-color: #8ecae6;
+    width: 100%;
+}
+.page-info header{
+    margin-top: .5rem;
+    font-family: Belligerent;
+    color: #fb8500;
+    text-align: center;
+    font-size: xx-large;
+}
+.page-info div{
+    border: 2px solid #023047;
+    margin: .5rem auto;
+    padding: .5rem;
+    width: 80%;
+}
+.page-info div img{
+    float: right;
+    margin: 0.5rem;
+}
+.page-info div::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.page-nav{
+    border: solid #023047;
+    border-radius: 1em;
+    margin: auto;
+    width: 90%;
+}
+.page-nav ol{
+    columns: 4;
+    column-gap: 2rem;
+    margin: .2rem auto;
+    width: 90%;
+}
